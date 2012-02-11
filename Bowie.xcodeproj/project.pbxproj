@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE67A51114E6F7FE00FE0998 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE67A51014E6F7FE00FE0998 /* Cocoa.framework */; };
+		BE67A51B14E6F7FE00FE0998 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE67A51914E6F7FE00FE0998 /* InfoPlist.strings */; };
+		BE67A51D14E6F7FE00FE0998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE67A51C14E6F7FE00FE0998 /* main.m */; };
+		BE67A52114E6F7FE00FE0998 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE67A51F14E6F7FE00FE0998 /* Credits.rtf */; };
+		BE67A52414E6F7FE00FE0998 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = BE67A52314E6F7FE00FE0998 /* Document.m */; };
+		BE67A52714E6F7FE00FE0998 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE67A52514E6F7FE00FE0998 /* Document.xib */; };
+		BE67A52A14E6F7FE00FE0998 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE67A52814E6F7FE00FE0998 /* MainMenu.xib */; };
+		BE67A53214E6F7FE00FE0998 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE67A53114E6F7FE00FE0998 /* SenTestingKit.framework */; };
+		BE67A53314E6F7FE00FE0998 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE67A51014E6F7FE00FE0998 /* Cocoa.framework */; };
+		BE67A53B14E6F7FE00FE0998 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE67A53914E6F7FE00FE0998 /* InfoPlist.strings */; };
+		BE67A53E14E6F7FE00FE0998 /* BowieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE67A53D14E6F7FE00FE0998 /* BowieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE67A53414E6F7FE00FE0998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE67A50314E6F7FD00FE0998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE67A50B14E6F7FE00FE0998;
+			remoteInfo = Bowie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE67A50C14E6F7FE00FE0998 /* Bowie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bowie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE67A51014E6F7FE00FE0998 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BE67A51314E6F7FE00FE0998 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BE67A51414E6F7FE00FE0998 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE67A51514E6F7FE00FE0998 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE67A51814E6F7FE00FE0998 /* Bowie-Info.plist */ = {isa = PBXFileReference; path = "Bowie-Info.plist"; sourceTree = "<group>"; };
+		BE67A51A14E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE67A51C14E6F7FE00FE0998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE67A51E14E6F7FE00FE0998 /* Bowie-Prefix.pch */ = {isa = PBXFileReference; path = "Bowie-Prefix.pch"; sourceTree = "<group>"; };
+		BE67A52014E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BE67A52214E6F7FE00FE0998 /* Document.h */ = {isa = PBXFileReference; path = Document.h; sourceTree = "<group>"; };
+		BE67A52314E6F7FE00FE0998 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		BE67A52614E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		BE67A52914E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BE67A53014E6F7FE00FE0998 /* BowieTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowieTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE67A53114E6F7FE00FE0998 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE67A53814E6F7FE00FE0998 /* BowieTests-Info.plist */ = {isa = PBXFileReference; path = "BowieTests-Info.plist"; sourceTree = "<group>"; };
+		BE67A53A14E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE67A53C14E6F7FE00FE0998 /* BowieTests.h */ = {isa = PBXFileReference; path = BowieTests.h; sourceTree = "<group>"; };
+		BE67A53D14E6F7FE00FE0998 /* BowieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BowieTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE67A50914E6F7FE00FE0998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67A51114E6F7FE00FE0998 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE67A52C14E6F7FE00FE0998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67A53214E6F7FE00FE0998 /* SenTestingKit.framework in Frameworks */,
+				BE67A53314E6F7FE00FE0998 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE67A50114E6F7FD00FE0998 = {
+			isa = PBXGroup;
+			children = (
+				BE67A51614E6F7FE00FE0998 /* Bowie */,
+				BE67A53614E6F7FE00FE0998 /* BowieTests */,
+				BE67A50F14E6F7FE00FE0998 /* Frameworks */,
+				BE67A50D14E6F7FE00FE0998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE67A50D14E6F7FE00FE0998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE67A50C14E6F7FE00FE0998 /* Bowie.app */,
+				BE67A53014E6F7FE00FE0998 /* BowieTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE67A50F14E6F7FE00FE0998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE67A51014E6F7FE00FE0998 /* Cocoa.framework */,
+				BE67A53114E6F7FE00FE0998 /* SenTestingKit.framework */,
+				BE67A51214E6F7FE00FE0998 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE67A51214E6F7FE00FE0998 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE67A51314E6F7FE00FE0998 /* AppKit.framework */,
+				BE67A51414E6F7FE00FE0998 /* CoreData.framework */,
+				BE67A51514E6F7FE00FE0998 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BE67A51614E6F7FE00FE0998 /* Bowie */ = {
+			isa = PBXGroup;
+			children = (
+				BE67A52214E6F7FE00FE0998 /* Document.h */,
+				BE67A52314E6F7FE00FE0998 /* Document.m */,
+				BE67A52514E6F7FE00FE0998 /* Document.xib */,
+				BE67A52814E6F7FE00FE0998 /* MainMenu.xib */,
+				BE67A51714E6F7FE00FE0998 /* Supporting Files */,
+			);
+			path = Bowie;
+			sourceTree = "<group>";
+		};
+		BE67A51714E6F7FE00FE0998 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE67A51814E6F7FE00FE0998 /* Bowie-Info.plist */,
+				BE67A51914E6F7FE00FE0998 /* InfoPlist.strings */,
+				BE67A51C14E6F7FE00FE0998 /* main.m */,
+				BE67A51E14E6F7FE00FE0998 /* Bowie-Prefix.pch */,
+				BE67A51F14E6F7FE00FE0998 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE67A53614E6F7FE00FE0998 /* BowieTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE67A53C14E6F7FE00FE0998 /* BowieTests.h */,
+				BE67A53D14E6F7FE00FE0998 /* BowieTests.m */,
+				BE67A53714E6F7FE00FE0998 /* Supporting Files */,
+			);
+			path = BowieTests;
+			sourceTree = "<group>";
+		};
+		BE67A53714E6F7FE00FE0998 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE67A53814E6F7FE00FE0998 /* BowieTests-Info.plist */,
+				BE67A53914E6F7FE00FE0998 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE67A50B14E6F7FE00FE0998 /* Bowie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE67A54114E6F7FE00FE0998 /* Build configuration list for PBXNativeTarget "Bowie" */;
+			buildPhases = (
+				BE67A50814E6F7FE00FE0998 /* Sources */,
+				BE67A50914E6F7FE00FE0998 /* Frameworks */,
+				BE67A50A14E6F7FE00FE0998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bowie;
+			productName = Bowie;
+			productReference = BE67A50C14E6F7FE00FE0998 /* Bowie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE67A52F14E6F7FE00FE0998 /* BowieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE67A54414E6F7FE00FE0998 /* Build configuration list for PBXNativeTarget "BowieTests" */;
+			buildPhases = (
+				BE67A52B14E6F7FE00FE0998 /* Sources */,
+				BE67A52C14E6F7FE00FE0998 /* Frameworks */,
+				BE67A52D14E6F7FE00FE0998 /* Resources */,
+				BE67A52E14E6F7FE00FE0998 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE67A53514E6F7FE00FE0998 /* PBXTargetDependency */,
+			);
+			name = BowieTests;
+			productName = BowieTests;
+			productReference = BE67A53014E6F7FE00FE0998 /* BowieTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE67A50314E6F7FD00FE0998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BE67A50614E6F7FD00FE0998 /* Build configuration list for PBXProject "Bowie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE67A50114E6F7FD00FE0998;
+			productRefGroup = BE67A50D14E6F7FE00FE0998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE67A50B14E6F7FE00FE0998 /* Bowie */,
+				BE67A52F14E6F7FE00FE0998 /* BowieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE67A50A14E6F7FE00FE0998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67A51B14E6F7FE00FE0998 /* InfoPlist.strings in Resources */,
+				BE67A52114E6F7FE00FE0998 /* Credits.rtf in Resources */,
+				BE67A52714E6F7FE00FE0998 /* Document.xib in Resources */,
+				BE67A52A14E6F7FE00FE0998 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE67A52D14E6F7FE00FE0998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67A53B14E6F7FE00FE0998 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE67A52E14E6F7FE00FE0998 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE67A50814E6F7FE00FE0998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67A51D14E6F7FE00FE0998 /* main.m in Sources */,
+				BE67A52414E6F7FE00FE0998 /* Document.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE67A52B14E6F7FE00FE0998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67A53E14E6F7FE00FE0998 /* BowieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE67A53514E6F7FE00FE0998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE67A50B14E6F7FE00FE0998 /* Bowie */;
+			targetProxy = BE67A53414E6F7FE00FE0998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE67A51914E6F7FE00FE0998 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE67A51A14E6F7FE00FE0998 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE67A51F14E6F7FE00FE0998 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE67A52014E6F7FE00FE0998 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BE67A52514E6F7FE00FE0998 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE67A52614E6F7FE00FE0998 /* en */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		BE67A52814E6F7FE00FE0998 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE67A52914E6F7FE00FE0998 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BE67A53914E6F7FE00FE0998 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE67A53A14E6F7FE00FE0998 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE67A53F14E6F7FE00FE0998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE67A54014E6F7FE00FE0998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE67A54214E6F7FE00FE0998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowie/Bowie-Prefix.pch";
+				INFOPLIST_FILE = "Bowie/Bowie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE67A54314E6F7FE00FE0998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowie/Bowie-Prefix.pch";
+				INFOPLIST_FILE = "Bowie/Bowie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE67A54514E6F7FE00FE0998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bowie.app/Contents/MacOS/Bowie";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowie/Bowie-Prefix.pch";
+				INFOPLIST_FILE = "BowieTests/BowieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BE67A54614E6F7FE00FE0998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bowie.app/Contents/MacOS/Bowie";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowie/Bowie-Prefix.pch";
+				INFOPLIST_FILE = "BowieTests/BowieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE67A50614E6F7FD00FE0998 /* Build configuration list for PBXProject "Bowie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE67A53F14E6F7FE00FE0998 /* Debug */,
+				BE67A54014E6F7FE00FE0998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE67A54114E6F7FE00FE0998 /* Build configuration list for PBXNativeTarget "Bowie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE67A54214E6F7FE00FE0998 /* Debug */,
+				BE67A54314E6F7FE00FE0998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE67A54414E6F7FE00FE0998 /* Build configuration list for PBXNativeTarget "BowieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE67A54514E6F7FE00FE0998 /* Debug */,
+				BE67A54614E6F7FE00FE0998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE67A50314E6F7FD00FE0998 /* Project object */;
+}

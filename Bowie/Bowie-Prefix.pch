@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Bowie' target in the 'Bowie' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
