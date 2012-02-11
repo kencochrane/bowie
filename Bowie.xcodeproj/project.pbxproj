@@ -36,20 +36,20 @@
 		BE67A51314E6F7FE00FE0998 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		BE67A51414E6F7FE00FE0998 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		BE67A51514E6F7FE00FE0998 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BE67A51814E6F7FE00FE0998 /* Bowie-Info.plist */ = {isa = PBXFileReference; path = "Bowie-Info.plist"; sourceTree = "<group>"; };
+		BE67A51814E6F7FE00FE0998 /* Bowie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bowie-Info.plist"; sourceTree = "<group>"; };
 		BE67A51A14E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE67A51C14E6F7FE00FE0998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BE67A51E14E6F7FE00FE0998 /* Bowie-Prefix.pch */ = {isa = PBXFileReference; path = "Bowie-Prefix.pch"; sourceTree = "<group>"; };
+		BE67A51E14E6F7FE00FE0998 /* Bowie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bowie-Prefix.pch"; sourceTree = "<group>"; };
 		BE67A52014E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		BE67A52214E6F7FE00FE0998 /* Document.h */ = {isa = PBXFileReference; path = Document.h; sourceTree = "<group>"; };
+		BE67A52214E6F7FE00FE0998 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		BE67A52314E6F7FE00FE0998 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		BE67A52614E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
 		BE67A52914E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BE67A53014E6F7FE00FE0998 /* BowieTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowieTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE67A53114E6F7FE00FE0998 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BE67A53814E6F7FE00FE0998 /* BowieTests-Info.plist */ = {isa = PBXFileReference; path = "BowieTests-Info.plist"; sourceTree = "<group>"; };
+		BE67A53814E6F7FE00FE0998 /* BowieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BowieTests-Info.plist"; sourceTree = "<group>"; };
 		BE67A53A14E6F7FE00FE0998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BE67A53C14E6F7FE00FE0998 /* BowieTests.h */ = {isa = PBXFileReference; path = BowieTests.h; sourceTree = "<group>"; };
+		BE67A53C14E6F7FE00FE0998 /* BowieTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BowieTests.h; sourceTree = "<group>"; };
 		BE67A53D14E6F7FE00FE0998 /* BowieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BowieTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,8 +116,8 @@
 		BE67A51614E6F7FE00FE0998 /* Bowie */ = {
 			isa = PBXGroup;
 			children = (
-				BE67A52214E6F7FE00FE0998 /* Document.h */,
 				BE67A52314E6F7FE00FE0998 /* Document.m */,
+				BE67A52214E6F7FE00FE0998 /* Document.h */,
 				BE67A52514E6F7FE00FE0998 /* Document.xib */,
 				BE67A52814E6F7FE00FE0998 /* MainMenu.xib */,
 				BE67A51714E6F7FE00FE0998 /* Supporting Files */,
@@ -381,6 +381,7 @@
 		BE67A54214E6F7FE00FE0998 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bowie/Bowie-Prefix.pch";
 				INFOPLIST_FILE = "Bowie/Bowie-Info.plist";
@@ -392,6 +393,7 @@
 		BE67A54314E6F7FE00FE0998 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bowie/Bowie-Prefix.pch";
 				INFOPLIST_FILE = "Bowie/Bowie-Info.plist";
