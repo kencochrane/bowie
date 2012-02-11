@@ -28,3 +28,10 @@ Status
 ------
 
 - [02/11/2012] 0.1 very rough initial checkin, project was created and window was built. Able to open and save files. Doesn't do any rendering yet.
+
+
+Links
+-----
+An old link on how to build a text editor for OSX in 15 minutes. - https://developer.apple.com/library/mac/#documentation/cocoa/conceptual/TextArchitecture/Tasks/TextEditor.html
+
+Simple editor that renders ReST to HTML preview window. - http://artificialcode.blogspot.com/2009/03/cocoa-restless-restructured-preview.html
